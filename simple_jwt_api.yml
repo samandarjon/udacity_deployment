@@ -38,6 +38,6 @@ spec:
             allowPrivilegeEscalation: false
           env:
             - name: JWT_SERCET
-              value: JWT_SERCET_VALUE
+              value: "myjwtsecret"
           ports:
             - containerPort: 8080
